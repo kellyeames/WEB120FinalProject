@@ -1,0 +1,225 @@
+/*CSS For Streamline Page*/
+
+* {
+    padding:0;
+    margin:0;
+}
+
+
+body {
+    font-family: sans-serif;
+    background-image:url(../images/beerbackground2.jpg);
+}
+
+div#wrapper {
+    width:940px;
+    margin: 30px auto; /*30px from the top, auto from the right, 30px from the bottom, auto from the left*/
+    background:rgba(255, 255, 255, .9);
+    overflow:hidden;
+    padding-left: 20px;
+}
+
+
+
+p {
+    margin-bottom:20px;
+    line-height: 1.5;
+}
+
+
+
+footer {
+    text-align:center;
+    text-transform:uppercase;
+    clear:both;
+    font-family: 'Marcellus SC', serif;
+}
+
+
+
+aside ul {
+    list-style-type:none
+}
+
+
+header {
+    margin-bottom:20px;
+    margin-top:20px;
+    margin-right:20px;
+}
+
+#sign {
+    float:right;
+    clear:both;
+}
+
+
+#title {
+    text-align:center;
+    font-size:3em;
+    font-family: 'Marcellus SC', serif;
+}
+
+/*#taps {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}*/
+
+
+#contact {
+    float:right;
+    list-style-type:none;
+    text-align:center;
+    margin-top:40px;
+    font-family: 'Marcellus SC', serif;
+}
+
+#social li {
+    float:right;
+    list-style-type:none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Marcellus SC', serif;
+}
+
+h2 {
+    margin-bottom:15px;
+}
+
+#press {
+    text-align:center;
+    text-decoration:underline;
+    margin-bottom:20px;
+}
+
+#headline {
+    /*text-align: center;*/
+    margin-right:70px;
+    margin-top:70px;
+    float:right;
+    /*padding: 70px 0;*/
+}
+
+
+
+nav {
+    line-height:40px;
+    clear:both;
+    margin-right:15px;
+    font-family: 'Marcellus SC', serif;
+}
+
+nav ul {
+    width:1000px;
+    margin:0 auto;
+}
+
+
+nav a {
+    text-decoration:none;
+    display:block;
+    color:black;
+    background-color:lemonchiffon;
+}
+
+#logo {
+    margin-top:20px;
+}
+
+
+nav li {
+    list-style-type:none;
+    float:left;
+    width:15%;
+    text-align:center;
+    margin-bottom:10px
+}
+
+
+nav a:hover {
+    color:black;
+    background:lemonchiffon;
+}
+
+
+main {
+    width:550px;
+    float:left;
+    padding:5px;
+    margin-bottom:20px;
+    font-size: 1em;
+}
+
+
+#hours {
+    font-family: 'Marcellus SC', serif;
+    margin-bottom:30px;
+    background-color:lemonchiffon;
+}
+
+#yellow {
+    background-color:lemonchiffon;
+    font-family: 'Marcellus SC', serif;
+}
+
+
+aside {
+    width:320px;
+    float:right;
+    margin-right:15px;
+    padding:5px;
+    font-family:sans-serif;
+    margin-top:20px;
+    text-align:center;
+}
+
+#food {
+    margin-bottom:10px;
+}
+
+/* Phat PHONE Rules! */
+@media all and (max-width:860px) {
+    div.wrapper {
+        background-color:blue;
+    }
+    
+    /* Show Agenda View Calendar */
+    div.embed-container.agenda-view {
+        display:block;
+    }
+    
+    /* Hide Month View Calendar */
+    div.embed-container.month-view {
+        display:none;
+    }
+}
+
+/* START Global Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.embed-container.agenda-view {
+    display:none;
+}
+
+/* END Global Embed Responsively Rules! */
+
+
+
+
